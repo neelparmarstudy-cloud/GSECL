@@ -1,0 +1,73 @@
+/* Footer Section */
+.widgets-section {
+    background-color: white;
+    color: black;
+    padding: 40px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Footer Columns */
+.footer-column {
+    width: 22%;
+    min-width: 200px;
+    padding: 15px;
+}
+
+.footer-widget h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+/* Links Styling */
+.footer-widget a {
+    color:black;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-widget a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Visitor Counter */
+.visitor_counter_box {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Marquee Styling */
+marquee {
+    height: 100px;
+    display: block;
+    padding: 5px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+/* Footer Image */
+.footer_img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .footer-column {
+        width: 80%;
+    }
+}
