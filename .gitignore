@@ -1,0 +1,42 @@
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+# Ignore local user database configuration modifications
+dbconnect.php
+
+# Ignore mock user profile images uploaded during signups
+signup/*
+!signup/.gitkeep
+
+# Ignore machine issue images and videos uploaded during testing
+uploads/*
+!uploads/.gitkeep
+
+# Operating system / IDE configurations
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
