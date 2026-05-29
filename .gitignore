@@ -23,3 +23,20 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+# Ignore local user database configuration modifications
+dbconnect.php
+
+# Ignore mock user profile images uploaded during signups
+signup/*
+!signup/.gitkeep
+
+# Ignore machine issue images and videos uploaded during testing
+uploads/*
+!uploads/.gitkeep
+
+# Operating system / IDE configurations
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
